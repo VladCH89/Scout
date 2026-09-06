@@ -1,0 +1,7 @@
+# Runtime dependencies for the product opportunity scout.
+requests>=2.31,<3
+pytrends>=4.9.2,<5
+google-play-scraper>=1.2.7,<2
+# pytrends builds its series on pandas; pinned explicitly so the trend reader
+# fails loudly at install time rather than at run time.
+pandas>=2.0,<3

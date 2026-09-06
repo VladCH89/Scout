@@ -1,0 +1,29 @@
+{
+  "subreddits": [
+    "SomebodyMakeThis",
+    "AppIdeas",
+    "productivity",
+    "personalfinance",
+    "frugal",
+    "smallbusiness",
+    "Entrepreneur"
+  ],
+  "demand_phrases": [
+    "is there an app",
+    "why is there no",
+    "wish there was",
+    "does anyone know a tool",
+    "I'd pay for"
+  ],
+  "reddit_timeframe": "year",
+  "trends_timeframe": "today 12-m",
+  "trends_max_topics": 15,
+  "appstore_max_topics": 10,
+  "appstore_apps_per_topic": 3,
+  "appstore_reviews_per_app": 100,
+  "appstore_country": "us",
+  "cluster_similarity_threshold": 0.08,
+  "min_independent_sources": 2,
+  "max_topics_in_report": 40,
+  "output_dir": "findings"
+}
