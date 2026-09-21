@@ -1,0 +1,343 @@
+{
+  "generated_at": "2026-09-21T12:38:16+00:00",
+  "run_date": "2026-09-21",
+  "rules": [
+    "Every claim traces to a stored source URL.",
+    "Quotes are verbatim; nothing is paraphrased or invented.",
+    "Source failures are recorded, never filled with an estimate.",
+    "Primary data only: no blogs, listicles or 'top app ideas' commentary.",
+    "A topic ranks only with corroboration from at least 2 independent sources."
+  ],
+  "config": {
+    "subreddits": [
+      "SomebodyMakeThis",
+      "AppIdeas",
+      "productivity",
+      "personalfinance",
+      "frugal",
+      "smallbusiness",
+      "Entrepreneur"
+    ],
+    "demand_phrases": [
+      "is there an app",
+      "why is there no",
+      "wish there was",
+      "does anyone know a tool",
+      "I'd pay for"
+    ],
+    "reddit_timeframe": "year",
+    "trends_timeframe": "today 12-m",
+    "appstore_country": "us",
+    "appstore_max_rating": 2,
+    "min_independent_sources": 2,
+    "cluster_similarity_threshold": 0.08
+  },
+  "stats": {
+    "reddit_evidence_items": 0,
+    "apple_evidence_items": 0,
+    "google_play_evidence_items": 0,
+    "topics_found": 0,
+    "topics_ranked": 0,
+    "topics_unranked": 0,
+    "source_failures": 42,
+    "scout_version": "1.0.0"
+  },
+  "failures": [
+    {
+      "source": "reddit",
+      "target": "r/SomebodyMakeThis :: 'is there an app'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/SomebodyMakeThis/search.json",
+      "at": "2026-09-21T12:37:22+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/SomebodyMakeThis :: 'why is there no'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/SomebodyMakeThis/search.json",
+      "at": "2026-09-21T12:37:23+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/SomebodyMakeThis :: 'wish there was'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/SomebodyMakeThis/search.json",
+      "at": "2026-09-21T12:37:25+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/SomebodyMakeThis :: 'does anyone know a tool'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/SomebodyMakeThis/search.json",
+      "at": "2026-09-21T12:37:26+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/SomebodyMakeThis :: \"I'd pay for\"",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/SomebodyMakeThis/search.json",
+      "at": "2026-09-21T12:37:28+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/SomebodyMakeThis",
+      "stage": "collect",
+      "error": "no posts matched any demand phrase after verification",
+      "at": "2026-09-21T12:37:29+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/AppIdeas :: 'is there an app'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/AppIdeas/search.json",
+      "at": "2026-09-21T12:37:29+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/AppIdeas :: 'why is there no'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/AppIdeas/search.json",
+      "at": "2026-09-21T12:37:31+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/AppIdeas :: 'wish there was'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/AppIdeas/search.json",
+      "at": "2026-09-21T12:37:32+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/AppIdeas :: 'does anyone know a tool'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/AppIdeas/search.json",
+      "at": "2026-09-21T12:37:34+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/AppIdeas :: \"I'd pay for\"",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/AppIdeas/search.json",
+      "at": "2026-09-21T12:37:35+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/AppIdeas",
+      "stage": "collect",
+      "error": "no posts matched any demand phrase after verification",
+      "at": "2026-09-21T12:37:37+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/productivity :: 'is there an app'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/productivity/search.json",
+      "at": "2026-09-21T12:37:37+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/productivity :: 'why is there no'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/productivity/search.json",
+      "at": "2026-09-21T12:37:39+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/productivity :: 'wish there was'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/productivity/search.json",
+      "at": "2026-09-21T12:37:40+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/productivity :: 'does anyone know a tool'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/productivity/search.json",
+      "at": "2026-09-21T12:37:42+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/productivity :: \"I'd pay for\"",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/productivity/search.json",
+      "at": "2026-09-21T12:37:43+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/productivity",
+      "stage": "collect",
+      "error": "no posts matched any demand phrase after verification",
+      "at": "2026-09-21T12:37:45+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/personalfinance :: 'is there an app'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/personalfinance/search.json",
+      "at": "2026-09-21T12:37:45+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/personalfinance :: 'why is there no'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/personalfinance/search.json",
+      "at": "2026-09-21T12:37:46+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/personalfinance :: 'wish there was'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/personalfinance/search.json",
+      "at": "2026-09-21T12:37:48+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/personalfinance :: 'does anyone know a tool'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/personalfinance/search.json",
+      "at": "2026-09-21T12:37:49+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/personalfinance :: \"I'd pay for\"",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/personalfinance/search.json",
+      "at": "2026-09-21T12:37:51+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/personalfinance",
+      "stage": "collect",
+      "error": "no posts matched any demand phrase after verification",
+      "at": "2026-09-21T12:37:52+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/frugal :: 'is there an app'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/frugal/search.json",
+      "at": "2026-09-21T12:37:52+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/frugal :: 'why is there no'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/frugal/search.json",
+      "at": "2026-09-21T12:37:54+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/frugal :: 'wish there was'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/frugal/search.json",
+      "at": "2026-09-21T12:37:56+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/frugal :: 'does anyone know a tool'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/frugal/search.json",
+      "at": "2026-09-21T12:37:57+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/frugal :: \"I'd pay for\"",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/frugal/search.json",
+      "at": "2026-09-21T12:37:59+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/frugal",
+      "stage": "collect",
+      "error": "no posts matched any demand phrase after verification",
+      "at": "2026-09-21T12:38:00+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/smallbusiness :: 'is there an app'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/smallbusiness/search.json",
+      "at": "2026-09-21T12:38:00+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/smallbusiness :: 'why is there no'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/smallbusiness/search.json",
+      "at": "2026-09-21T12:38:02+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/smallbusiness :: 'wish there was'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/smallbusiness/search.json",
+      "at": "2026-09-21T12:38:03+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/smallbusiness :: 'does anyone know a tool'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/smallbusiness/search.json",
+      "at": "2026-09-21T12:38:05+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/smallbusiness :: \"I'd pay for\"",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/smallbusiness/search.json",
+      "at": "2026-09-21T12:38:06+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/smallbusiness",
+      "stage": "collect",
+      "error": "no posts matched any demand phrase after verification",
+      "at": "2026-09-21T12:38:08+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/Entrepreneur :: 'is there an app'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/Entrepreneur/search.json",
+      "at": "2026-09-21T12:38:08+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/Entrepreneur :: 'why is there no'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/Entrepreneur/search.json",
+      "at": "2026-09-21T12:38:09+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/Entrepreneur :: 'wish there was'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/Entrepreneur/search.json",
+      "at": "2026-09-21T12:38:11+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/Entrepreneur :: 'does anyone know a tool'",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/Entrepreneur/search.json",
+      "at": "2026-09-21T12:38:13+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/Entrepreneur :: \"I'd pay for\"",
+      "stage": "search",
+      "error": "HTTP 403 from https://www.reddit.com/r/Entrepreneur/search.json",
+      "at": "2026-09-21T12:38:14+00:00"
+    },
+    {
+      "source": "reddit",
+      "target": "r/Entrepreneur",
+      "stage": "collect",
+      "error": "no posts matched any demand phrase after verification",
+      "at": "2026-09-21T12:38:16+00:00"
+    }
+  ],
+  "topics": [],
+  "unranked_topics": []
+}
