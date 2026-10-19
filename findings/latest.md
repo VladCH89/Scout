@@ -1,6 +1,6 @@
 # Product Opportunity Scout
 
-Run: **2026-10-12T15:10:19+00:00** · data file: `2026-10-12.json`
+Run: **2026-10-19T12:53:25+00:00** · data file: `2026-10-19.json`
 
 | Metric | Value |
 | --- | --- |
